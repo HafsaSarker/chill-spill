@@ -4,7 +4,7 @@ import Controls from "./Controls";
 
 function SideNav() {
   return (
-    <div className="flex flex-col w-5/12">
+    <div className="flex flex-col w-7/12">
       <YouTubePlayer />
       <Controls />
     </div>
