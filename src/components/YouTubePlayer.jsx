@@ -1,11 +1,36 @@
-import React from "react";
+import React, { useState } from "react";
 import ReactPlayer from "react-player";
 
 function YouTubePlayer() {
+  const [vidURL, setVidURL] = useState(
+    "https://www.youtube.com/watch?v=5uKewJH8H-s&t=97s"
+  );
+
+  const changeURL = (e) => {
+    e.preventDefault();
+
+    setVidURL(vidURL);
+  };
   return (
-    <div className="h-3/6 flex items-center justify-center max-w-[500px]">
+    <div className="h-3/6 flex flex-col gap-5 items-center justify-center max-w-[500px]">
+      <form onSubmit={changeURL} className="w-full">
+        <div>
+          <label htmlFor="url" className="block mb-2 text-sm font-medium">
+            Paste video url
+          </label>
+          <input
+            type="text"
+            id="url"
+            name="vidURL"
+            value={vidURL}
+            onChange={(e) => setVidURL(e.target.value)}
+            className="block w-full p-1 border border-gray-300 rounded-lg text-xs focus:outline-none bg-transparent"
+          />
+        </div>
+      </form>
+
       <ReactPlayer
-        url={"https://www.youtube.com/watch?v=5uKewJH8H-s&t=97s"}
+        url={vidURL}
         controls={true}
         width="100%"
         height="70%"
