@@ -8,7 +8,7 @@ import Wind from "./controlAudios/Wind";
 
 function Controls() {
   return (
-    <div className="border h-4/6 flex flex-col items-center justify-center gap-5 rounded-xl max-w-[500px]">
+    <div className="h-4/6 flex flex-col items-center justify-center gap-5 rounded-xl max-w-[500px] bg-gray-400 bg-opacity-40 font-medium">
       <p>Sound Panel</p>
       <Rain />
       <Noise />

@@ -8,9 +8,9 @@ function YouTubePlayer() {
 
   const changeURL = (e) => {
     e.preventDefault();
-
     setVidURL(vidURL);
   };
+
   return (
     <div className="h-3/6 flex flex-col gap-5 items-center justify-center max-w-[500px]">
       <form onSubmit={changeURL} className="w-full">
@@ -24,7 +24,7 @@ function YouTubePlayer() {
             name="vidURL"
             value={vidURL}
             onChange={(e) => setVidURL(e.target.value)}
-            className="block w-full p-1 border border-gray-300 rounded-lg text-xs focus:outline-none bg-transparent"
+            className="block w-full p-2 rounded-lg text-xs focus:outline-none bg-gray-400 bg-opacity-40"
           />
         </div>
       </form>
