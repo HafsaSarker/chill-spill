@@ -1,9 +1,9 @@
 import SideNav from "./components/SideNav";
-import Timer from "./components/Timer";
 import bgThemes from "./utils/bgThemes";
 import { useContext, useState } from "react";
-import "./App.css";
 import { BgImageContext } from "./context/BgImageContext";
+import Stopwatch from "./components/Stopwatch";
+import "./App.css";
 
 function App() {
   const { currentImageIndex } = useContext(BgImageContext);
@@ -25,7 +25,7 @@ function App() {
     >
       <div className="backdrop-blur-sm bg-black bg-opacity-10 flex flex-row h-full w-full">
         <SideNav />
-        <Timer />
+        <Stopwatch />
       </div>
     </div>
   );

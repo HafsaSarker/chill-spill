@@ -3,7 +3,7 @@ import ReactPlayer from "react-player";
 
 function YouTubePlayer() {
   const [vidURL, setVidURL] = useState(
-    "https://www.youtube.com/watch?v=5uKewJH8H-s&t=97s"
+    "https://www.youtube.com/watch?v=lrmDoJkZjns"
   );
 
   const changeURL = (e) => {
@@ -24,7 +24,7 @@ function YouTubePlayer() {
             name="vidURL"
             value={vidURL}
             onChange={(e) => setVidURL(e.target.value)}
-            className="block w-full p-2 rounded-lg text-xs focus:outline-none bg-gray-400 bg-opacity-40"
+            className="block w-full p-2 rounded-lg text-xs focus:outline-none bg-neutral-800 bg-opacity-40"
           />
         </div>
       </form>

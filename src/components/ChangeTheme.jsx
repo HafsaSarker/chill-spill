@@ -7,7 +7,7 @@ export default function ChangeTheme() {
   return (
     <div className="text-center pt-5 max-w-[500px]">
       <button
-        className="bg-gray-400 bg-opacity-40 py-1.5 px-4 rounded-xl "
+        className="bg-neutral-800 bg-opacity-40 py-1.5 px-4 rounded-xl "
         onClick={changeBackground}
       >
         Change Background
