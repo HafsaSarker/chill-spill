@@ -1,8 +1,10 @@
-# React + Vite
+# Chill Spill
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Designed to enhance your study experience by providing background music and customizable noises such as brown noise, rain and etc. The application allows you to play music of your choice, adjust the volume, control volume of add on audios, change the background image for a personalized and visually engaging environment and keep track of your time.
 
-Currently, two official plugins are available:
+## [Visit the website here](https://chill-spill.netlify.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Thumbnail
+
+<img src="./public/thumbnail.png" width="500" />
+
