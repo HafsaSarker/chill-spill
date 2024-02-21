@@ -12,7 +12,7 @@ function YouTubePlayer() {
   };
 
   return (
-    <div className="h-3/6 flex flex-col gap-5 items-center justify-center w-full max-w-[500px]">
+    <div className="h-3/6 flex flex-col gap-5 items-center justify-center max-w-[500px]">
       <form onSubmit={changeURL} className="w-full">
         <div>
           <label htmlFor="url" className="block mb-2 text-sm font-medium">

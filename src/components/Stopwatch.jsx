@@ -5,11 +5,9 @@ function Stopwatch() {
   const { seconds, minutes, hours, days, isRunning, start, pause, reset } =
     useStopwatch({ autoStart: true });
   return (
-    <div className="p-10 flex flex-col items-center justify-center w-full gap-5">
-      <p className="font-semibold xl:text-6xl lg:text-5xl sm:text-4xl tracking-wider">
-        Stopwatch
-      </p>
-      <div className=" xl:text-9xl lg:text-8xl sm:text-7xl">
+    <div className="p-10 flex flex-col items-center justify-center w-full">
+      <p className="font-semibold text-4xl tracking-wider">Stopwatch</p>
+      <div style={{ fontSize: "100px" }}>
         <span>{days}</span>:<span>{hours}</span>:<span>{minutes}</span>:
         <span>{seconds}</span>
       </div>

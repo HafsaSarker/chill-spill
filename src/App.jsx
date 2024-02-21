@@ -21,10 +21,9 @@ function App() {
         justifyContent: "center",
         flexDirection: "column",
         transition: "background-image 0.3s linear ",
-        overflow: "hidden",
       }}
     >
-      <div className="backdrop-blur-sm bg-black bg-opacity-10 flex flex-row justify-center h-full w-full">
+      <div className="backdrop-blur-sm bg-black bg-opacity-10 flex flex-row h-full w-full">
         <SideNav />
         <Stopwatch />
       </div>
