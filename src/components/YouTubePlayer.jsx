@@ -3,7 +3,7 @@ import ReactPlayer from "react-player";
 
 function YouTubePlayer() {
   const [vidURL, setVidURL] = useState(
-    "https://www.youtube.com/watch?v=lrmDoJkZjns"
+    "https://youtu.be/R5MdjjadRmU"
   );
 
   const changeURL = (e) => {
